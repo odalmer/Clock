@@ -44,7 +44,7 @@ function Clock() {
         img = eveningImg;
     }
 
-    if (hours >= 12) {
+    if (hours >= 19) {
         img = nightImg;
     }
 
@@ -52,6 +52,47 @@ function Clock() {
     setTimeout(Clock, 1000)
 }
 
+try {
+    var geiName = prompt("Who are you")
+    geiName = geiName.toLowerCase();
+    if (geiName == "juan") {
+        alert('lol pleyer. Okno, Me pase. \n Pito lover. Ah no, es lo mismo, aaaaaa')
+    }
+    if (geiName == "benjamin") {
+        alert('bueje e fan de etabuol')
+    }
+    if (geiName =="odalismer") {
+        alert('Care culo \n llabo que yota')
+    }
+    if (geiName == "Rayfel") {
+        alert('un nub')
+    }
+    if (geiName == "aldo") {
+        alert('bes fren gei, cuidao si me lo chup*')
+    }
+    if (geiName == "samir") {
+        alert('coraniviru')
+    }
+    if (geiName == "ivan") {
+        alert('SIMP!!!!!!!!!!!')
+    }
+    if (geiName == "jeyson", "yeison", "jason") {
+        alert('pito lover pero e gente')
+    }
+    if (geiName == "brigitte") {
+        alert('briyi')
+    }
+    if (geiName == "Fernando") {
+        alert('simp pito lover')
+    }
+    if (geiName == "ivan") {
+        alert('pito lover')
+    }
+} catch {
+    alert('pa que lo cancela, no e opsional')
+}
+
+document.cookie = geiName;
 Clock()
 
 
