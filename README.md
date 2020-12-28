@@ -1,2 +1,2 @@
 # Clock
-my fist js project :)
+my frist js project :)
