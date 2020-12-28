@@ -1,7 +1,10 @@
 // Times ==================================
-let morningImg = 'https://cdn.i.haymarketmedia.asia/?n=campaign-asia%2Fcontent%2Fshutterstock_264132746.jpg';
-let afternoonImg = 'https://www.wftv.com/resizer/9JyCTLwoMHR1cr2vnWFTXUMYAdk=/1200x675/cloudfront-us-east-1.images.arcpublishing.com/cmg/HH2OXXRTC5HZDHVMTWPJ32KJRQ.jpg';
+let morningImg = 'https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/brunswickcountync/IMG_9938_sunrise_coffee_8094e073-cefc-4914-aac4-e2decedc074f.jpg';
+
+let afternoonImg = 'https://www.chamanexperience.com/wp-content/uploads/2020/01/fotografi%CC%81a-de-paisaje-1024x683.jpg';
+
 let eveningImg = "https://cdn.pixabay.com/photo/2018/05/11/11/53/landscape-3390360_960_720.jpg";
+
 let nightImg = "https://kids.jotdown.es/wp-content/uploads/2019/01/dog-647528_960_720.jpg";
 
 
@@ -21,7 +24,6 @@ function Clock() {
 
     if (seconds < 10) {
         seconds = '0' + seconds;
-        console.log("ok");
     }
     let clockTime = hours + ":" + minutes + ":" + seconds;
 
@@ -51,5 +53,5 @@ function Clock() {
 }
 
 Clock()
-alert("welcome to my watch. The image updates according to the time you see it")
+
 
