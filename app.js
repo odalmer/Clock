@@ -61,7 +61,7 @@ try {
     if (geiName == "benjamin") {
         alert('bueje e fan de etabuol')
     }
-    if (geiName =="odalismer") {
+    if (geiName == "odalismer") {
         alert('Care culo \n llabo que yota')
     }
     if (geiName == "Rayfel") {
@@ -76,7 +76,7 @@ try {
     if (geiName == "ivan") {
         alert('SIMP!!!!!!!!!!!')
     }
-    if (geiName == "jeyson", "yeison", "jason") {
+    if (geiName == "jeyson" || geiName == "yeison" || geiName == "jason") {
         alert('pito lover pero e gente')
     }
     if (geiName == "brigitte") {
