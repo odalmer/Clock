@@ -44,7 +44,7 @@ function Clock() {
         img = eveningImg;
     }
 
-    if (hours >= 19) {
+    if (hours >= 19){
         img = nightImg;
     }
 
@@ -52,7 +52,6 @@ function Clock() {
     setTimeout(Clock, 1000)
 }
 
-document.cookie = geiName;
 Clock()
 
 
